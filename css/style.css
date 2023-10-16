@@ -1,5 +1,5 @@
-
-
+@import url(css\typography.css);
+@import url(css\common.css);
 
 /* CSS RESET */
 *{
@@ -49,9 +49,67 @@ li{
 .wide{
     width: calc(100% / 3 * 2 - 20px) ;
 }
+/* FIRST SECTION */
 .purple{
     width: 100%;
     /* debug */
-    height: 500px ;
+    height: 800px;
     background-color: #9792e4;
 }
+.col-small{
+    width: calc(100% / 2);
+    /* debug */
+    height: 200px;
+}
+/* SECOND SECTION */
+.titles{
+    margin: 130px auto;
+    text-align: center;
+}
+h2{
+    color: #9792e4;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+   
+}
+.uw-box{
+    background-color: #9792e4;
+    width: 100%;
+    /* debug */
+    height: 100px;
+    margin: 20px 0;
+}
+
+/* THIRD SECTION */
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+}
+.square{
+    background-color: aliceblue;
+    width: calc(100% / 3 - 20px);
+    /* debug */
+    height: 300px;
+    margin: 20px 10px;
+}
+/* FOURTH SECTION */
+.last{
+    display: flex;
+    /* debug */
+    height: 800px;
+}
+.col-bigger{
+    width: 70%;
+    /* debug */
+    height: 400px
+}
+.col-smaller{
+    width: 30%;
+    padding: 0 20px ;
+    /* debug */
+    height: 400px;
+    background-color: #b5ddff;
+}
+/* FOOTER */
