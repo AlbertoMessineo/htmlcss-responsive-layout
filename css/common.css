@@ -1,0 +1,23 @@
+
+
+
+/* CONTAINER WIDTH */
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+}
+.small-container{
+    width: 48%;
+    margin: 0 auto;
+    /* debug */
+    background-color: aliceblue;
+    height: 100px;
+
+}
+
+
+/* LIST STYLE */
+*{
+    list-style: none;
+}

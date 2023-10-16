@@ -1,0 +1,57 @@
+
+
+
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/********** HEADER STYLE *************/
+header{
+    background-color: #0084fd;
+    /* DEBUG */
+    /* height: 100px; */
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between ;
+
+}
+.left{
+    padding: 10px ;
+}
+.right{
+    padding: 20px;
+
+}
+li{
+    display: inline-block;
+    padding: 0 10px;
+    color: aliceblue;
+}  
+/************* JUMBOTRON STYLE **************/
+
+.jumbotron{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+.box{
+    width: calc(100% / 3 - 20px);
+    background-color: #b5ddff;
+    /* debug */
+    height: 100px;
+    margin: 20px 10px;
+}
+.wide{
+    width: calc(100% / 3 * 2 - 20px) ;
+}
+.purple{
+    width: 100%;
+    /* debug */
+    height: 500px ;
+    background-color: #9792e4;
+}
