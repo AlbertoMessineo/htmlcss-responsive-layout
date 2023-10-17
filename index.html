@@ -5,15 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--------- LINKS STYLESHEET---------- -->
-    <link rel="stylesheet" href="/css/style.css">
+    
     <link rel="stylesheet" href="/css/common.css">
     <link rel="stylesheet" href="/css/typography.css">
-
+    <link rel="stylesheet" href="/css/style.css">
     <!--------- GOOGLE FONTS ---------------->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
 
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Responsive Layout</title>
 
 </head>
@@ -25,7 +27,7 @@
             <div class="right">
                 <ul class="nav list">
                     <li>Planning</li>
-                    <li>Testimoniala</li>
+                    <li>Testimonials</li>
                     <li>Features</li>
                     <li>About us</li>
                     <li>
@@ -38,8 +40,24 @@
     <main>
         <!--------JUMBOTRON--------------->
         <div class="container jumbotron">
-            <div class="box wide">a</div>
-            <div class="box">b</div>
+            <div class="box wide">
+                <div class="text">
+                    <h3>Get a demo application</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. aspernatur provident eaque alias, adipisci atque. Accusantium id blanditiis praesentium.</p>
+                    <button class="blue">
+                        <i class="fa-brands fa-apple"></i>
+                        App Store
+                    </button>
+                </div>
+                <div class="img-phone">
+                    <img src="img/phone.png" alt="phone" id="phone">
+                </div>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-file-code"></i>
+                <h2>Clean code</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus possimus ut nam! consequatur culpa hic voluptas impedit repudiandae magnam, magni doloribus vel dignissimos!</p>
+            </div>
             <div class="box">c</div>
             <div class="box">d</div>
             <div class="box">e</div>     
@@ -100,7 +118,10 @@
             <p>Lorem ipsum dolor sit amet pariatur magnam vitae veritatis numquam incidunt alias quasi repellat sequi at porro fugit sed natus eveniet nobis modi!</p>
             <button class="white"></button>
         </div>
-        <div class="footer"></div>
+        <div class="footer">
+            <p class="ft">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eos quisquam eligendi, aliquam vitae labore expedita earum numquam aliquid.</p>
+            <p class="ft"><span class="highlight">Lorem ipsum dolor</span> sit amet consectetur adipisicing elit.  autem incidunt neque ullam ipsa, <span class="highlight">lorem cuius rei puplicae ipsum dolor</span>possimus quae deserunt similique commodi soluta.</p>
+        </div>
     </footer>
 </body>
 </html>

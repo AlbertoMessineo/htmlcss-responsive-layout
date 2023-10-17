@@ -18,12 +18,44 @@
 }
 
 
+
 /* LIST STYLE */
 *{
     list-style: none;
 }
+/* BUTTONS STYLE */
+button{
+    border-radius: 20px;
+    border: none;
 
+}
+.white{
+    padding: 5px;
+    font-size: 18px;
+}
+.blue{
+    color: aliceblue;
+    background-color: #0084fd;
+    font-size: 20px;
+    padding: 6px 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
 /* STYLES GENERAL */
 h5, h2, p{
     padding: 10px 0;
 }
+
+
+/* RESPONSIVE */
+/* @media screen and (max-width:568px ) {
+
+
+    .container{
+        width: 100%;
+        padding: 1.875rem;
+    }
+    .box{
+        width: 100%;
+    }
+} */
