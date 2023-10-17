@@ -1,5 +1,5 @@
-@import url(css\typography.css);
-@import url(css\common.css);
+/* @import url(css\typography.css);
+@import url(css\common.css); */
 
 /* CSS RESET */
 *{
@@ -8,7 +8,9 @@
     box-sizing: border-box;
 }
 
+
 /********** HEADER STYLE *************/
+
 header{
     background-color: #0084fd;
     /* DEBUG */
@@ -113,3 +115,32 @@ h2{
     background-color: #b5ddff;
 }
 /* FOOTER */
+.call-to-action{
+    margin: 0 auto;
+    text-align: center;
+    background-color: #9792e4;
+}
+
+
+
+/***************** RESPONSIVE ****************/
+
+/*************************************************  
+                MOBILE VERSION
+**************************************************/
+
+@media screen and (max-width:568px ) {
+
+
+    .container{
+        width: 100%;
+        padding: 1.875rem;
+    }
+    .box{
+        width: 100%;
+    }
+}
+
+
+
+

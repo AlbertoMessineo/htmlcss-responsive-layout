@@ -4,16 +4,16 @@
 
 .container{
     width: 60%;
-    margin: 20px auto;
+    margin: 0 auto 20px auto;
 }
 .small-container{
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 48%;
-    margin: 0 auto; */
+    margin: 0 auto; 
     /* debug */
-    background-color: aliceblue;
+    background-color: aliceblue ;
     height: 100px;
 }
 
