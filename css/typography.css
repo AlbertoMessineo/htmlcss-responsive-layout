@@ -37,7 +37,14 @@ h2{
      font-size: 48px;
      margin: 20px 0;
 }
+.description{
+    color: aliceblue;
+    align-self: center;
+    line-height: 1.5;
+    padding: 20px;
+    padding-left: 30px;
 
+}
 /* GRID TITLE */
 .benefits-title{
     font-size: 48px;
@@ -64,6 +71,29 @@ h2{
     font-size: 20px;
     line-height: 2;
     padding: 30px 0;
+}
+/* FOOTER */
+.start{
+    color: #b5b1eb;
+    font-size: 24px;
+    padding-top: 30px;
+}
+.simple{
+    font-size: 48px;
+    color: aliceblue;
+}
+strong{
+    font-size: 96px;
+    color:#fdc15f ;
+    margin: 30px 0;
+}
+.free-text{
+    width: 30%;
+    margin: 0 auto;
+    
+}
+.free-text>p{
+    color: aliceblue;
 }
 
 /*** to do ***/

@@ -137,17 +137,22 @@ h2{
     background-color: #9792e4;
     width: 100%;
     margin: 20px 0;
+    border-radius:20px ;
 }
 
 .circleimg{
-    width: 20%;
-    margin-right:20px ;
-    /* height: 100px; */
+    margin: 10px;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 120px;
+    width: 120px;
+  
 }   
 #testimonials{
-    width: 100%;
+    display: block;
     height: 100%;
-    border-radius: 50%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .description{
@@ -298,6 +303,15 @@ h2{
     }
     
     /* SECOND SECTION */
+    .titles{
+        text-align: center;
+    }
+    .uw-box{
+        flex-direction: column;
+    }
+    .circleimg{
+        margin: 10px auto;
+    }
     /* THIRD SECTION */
     .benefits-title{
         text-align: center;
@@ -316,6 +330,9 @@ h2{
         margin-bottom: 30px;
         width: 100%;
         padding: 10px 30px;
+    }
+    .free-text{
+        width: 80%;
     }
 }
 
