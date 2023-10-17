@@ -45,38 +45,83 @@ li{
     width: calc(100% / 3 - 20px);
     background-color: #b5ddff;
     margin: 20px 10px;
+    text-align: center;
+    border-radius: 20px;
 }
 .wide{
+    display: flex;
     width: calc(100% / 3 * 2 - 20px) ;
 }
 .text{
     width: 50%;
     padding: 20px;
 }
-.img-phone{
-    position: relative;
+.img-phone {
+    width: 50%;
+    height: 268px;
+    align-self: flex-end;
 }
 #phone{
-    position: absolute;
-    height: 268px;
-    bottom: 0px;
-    right: 75px;
+    height: 100%;
+    align-items: flex-end;
+}
+
+.fa-solid{
+    font-size:  80px;
+    color: #0084fd;
+    padding-top: 26px;
 }
 /* FIRST SECTION */
 .purple{
     width: 100%;
-    /* debug */
-    height: 800px;
     background-color: #9792e4;
 }
 .col-small{
     width: calc(100% / 2);
-    /* debug */
-    height: 200px;
+    padding: 0 60px;
+    margin-top: 50px;
+}
+.planning{
+    color: aliceblue;
+    font-weight: 100;
+}
+#plan-pic{
+    width: 100%;
+}
+h4 {
+    font-size: 24px;
+    font-weight: 900;
+}
+.col{
+    background-color: aliceblue;
+    margin-top: 200px;
+    margin-right: 60px;
+}
+.small{
+    display: flex;
+    justify-content: space-between;
+}
+.circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    width: 50px;
+    height: 50px;
+    /* font-size: 24px; */
+    background-color: #9792e4;
+    border-radius: 50px;
+}
+.fa-arrow-down{
+    color: black;
+    font-size: 24px;
+    padding-bottom: 13px ;
+
+
 }
 /* SECOND SECTION */
 .titles{
-    margin: 130px auto;
+    margin: 50px auto;
     text-align: center;
 }
 h2{
@@ -88,11 +133,25 @@ h2{
    
 }
 .uw-box{
+    display: flex;
     background-color: #9792e4;
     width: 100%;
-    /* debug */
-    height: 100px;
     margin: 20px 0;
+}
+
+.circleimg{
+    width: 20%;
+    margin-right:20px ;
+    /* height: 100px; */
+}   
+#testimonials{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.description{
+    width: 80%;
 }
 
 /* THIRD SECTION */
@@ -103,20 +162,20 @@ h2{
 .square{
     background-color: aliceblue;
     width: calc(100% / 3 - 20px);
-    /* debug */
-    height: 300px;
     margin: 20px 10px;
+    padding: 40px;
+    text-align: left;
 }
+
 /* FOURTH SECTION */
 .last{
     display: flex;
-    /* debug */
-    height: 800px;
+  
 }
 .col-bigger{
     width: 70%;
-    /* debug */
-    height: 400px
+    
+ 
 }
 .col-smaller{
     width: 30%;
@@ -151,19 +210,112 @@ h2{
 
 /***************** RESPONSIVE ****************/
 
+
+/*************** TABLET VERSION ****************/
+@media screen and (max-width:992px ){
+    /* JUMBOTRON */
+    .container{
+        width: 100%;
+        padding: 1.875rem;
+    }
+    .wide {
+        display: flex;
+        flex-direction: column;
+        width: calc(100% / 3 * 2 - 20px);
+    }
+    .text{
+        width: 100%;
+    }
+    .img-phone {
+        width: 100%;
+        height: 268px;
+        align-self: flex-end;
+    }
+    /* FIRST SECTION */
+    .small{
+        flex-direction: column;
+    }
+    .col-small {
+        width: auto;
+        padding: 10px;
+        margin-top: 50px;
+    }
+    .col{
+        margin: auto;
+        width: 100%;
+    }
+    /* SECOND SECTION */
+    /* THIRD SECTION */
+    .square{
+        width: calc(100% / 2 - 20px);
+    }
+    /* FOOTER */
+    .ft{
+        width: 70%;
+    }
+
+}
+
 /*************************************************  
                 MOBILE VERSION
 **************************************************/
 
-@media screen and (max-width:568px ) {
+@media screen and (max-width:576px ) {
 
 
     .container{
         width: 100%;
         padding: 1.875rem;
+        text-align: left;
     }
+    /* JUMBOTRON*/
     .box{
         width: 100%;
+    }
+    .wide{
+        flex-direction: column;
+    }
+    .text {
+        width: 100%;
+        padding: 20px;
+    }
+    .img-phone {
+        width: 100%;
+        height: 268px;
+        align-self: flex-end;
+    }
+    /* FIRST SECTION */
+    .small{
+        flex-direction: column;
+    }
+    .col-small {
+        width: auto;
+        padding: 10px;
+        margin-top: 50px;
+    }
+    .col{
+        margin: auto;
+    }
+    
+    /* SECOND SECTION */
+    /* THIRD SECTION */
+    .benefits-title{
+        text-align: center;
+    }
+    /* FOURTH SECTION */
+    .last{
+        flex-direction: column;
+        text-align: center;
+    }
+    .col-bigger {
+        width: 100%;
+    }
+    /* FOOTER */
+    .ft {
+        margin: 0 auto;
+        margin-bottom: 30px;
+        width: 100%;
+        padding: 10px 30px;
     }
 }
 
